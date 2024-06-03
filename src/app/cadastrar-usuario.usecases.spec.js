@@ -1,3 +1,5 @@
+const cadastrarUsuarioUsecases = require("./cadastrar-usuario.usecases")
+
 describe('Cadastrar usuario UseCase', () => {
   test('Deve poder cadastrar um usuario',  () => {
     const usuarioDTO = {
@@ -5,7 +7,9 @@ describe('Cadastrar usuario UseCase', () => {
       cpf: 'cpf valido',
       telefone: 'telefone valido',
       endereco: 'endereço valido',
-      email: 'email valido'
+      email: 'email valVido'
     }
+
+    const cadastrarUsuarioUseCase = cadastrarUsuarioUsecases
   })
 })
